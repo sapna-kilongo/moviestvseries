@@ -1,0 +1,11 @@
+.SingleMovie{
+ display: flex;
+ flex-direction: column;
+
+}
+.top{
+display:flex;
+justify-content: space-around;
+
+
+}

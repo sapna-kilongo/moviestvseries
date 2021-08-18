@@ -1,0 +1,34 @@
+.Header{
+ display: flex;
+ background-color:#0d253f;
+ height: 10vh;
+ width: 100%;
+ color: white;
+ align-items: center;
+justify-content: space-around;
+position: sticky;
+left: 0;
+top: 0;
+}
+
+.Fieds{
+ display: flex;
+ align-items: center;
+
+}
+
+
+.Fieds input{
+    outline: none;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 1rem;
+   
+   }
+   
+
+.Fieds input:focus{
+ outline: none;
+
+
+}

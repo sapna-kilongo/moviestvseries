@@ -1,0 +1,21 @@
+.Genre{
+display: flex;
+justify-content: center;
+
+
+
+}
+.GENRES{
+background-color: black;
+font-size: larger;
+border-radius: 30%;
+margin: auto;
+cursor: pointer;
+color: white;
+
+
+
+
+
+
+}

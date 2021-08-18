@@ -1,0 +1,10 @@
+.paginaton{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+.number{
+margin-left: 1rem;
+margin-right: 1rem;
+}
