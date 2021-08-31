@@ -44,7 +44,11 @@ function Single() {
                     <div> <h6>{single.title}</h6> </div>
                 </div>
                 <div className="right_handle">
-                    <div> <h6>{single.overview}</h6> </div>
+                    <div>
+                         <h1>OverView</h1>
+                         <h6>{single.overview}</h6>
+                         
+                          </div>
                     <table>
                             <tr>
                                 <th>name</th>
@@ -65,6 +69,11 @@ function Single() {
                             <tr>
                                 <td>tagline</td>
                                 <td>:{single.tagline}</td>
+                            
+                            </tr>
+                            <tr>
+                                <td>release date</td>
+                                <td>:{single.release_date}</td>
                             
                             </tr>
                           
