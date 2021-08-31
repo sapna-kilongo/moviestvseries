@@ -45,6 +45,30 @@ function Single() {
                 </div>
                 <div className="right_handle">
                     <div> <h6>{single.overview}</h6> </div>
+                    <table>
+                            <tr>
+                                <th>name</th>
+                                <th>description</th>
+                            </tr>
+                            <tr>
+                                <td>title</td>
+                                <td>{single.title}</td>
+                            </tr>
+                            <tr>
+                                <td>vote</td>
+                                <td>:{single.vote_average}</td>
+                            </tr>
+                            <tr>
+                                <td>popularity</td>
+                                <td>:{single.popularity}</td>
+                            </tr>
+                            <tr>
+                                <td>tagline</td>
+                                <td>:{single.tagline}</td>
+                            
+                            </tr>
+                          
+                    </table>
                 </div>
                 
                
@@ -52,7 +76,9 @@ function Single() {
             </div>
 
             <div className="middle" >
-               <ReactPlayer url={`https://www.youtube.com/watch?v=${Triller}`}/> 
+               <ReactPlayer
+               width='100%'
+               url={`https://www.youtube.com/watch?v=${Triller}`}/> 
                 
             </div>
            
